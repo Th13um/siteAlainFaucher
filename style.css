@@ -3,14 +3,15 @@ html, body {
 	min-height: 100%;
 	line-height: 150%;
 	background: #434e4f;
-	font-family:sans-serif;
+	font-family: 'PT Sans', sans-serif;
 
 }
 
-h1 {
-	font-family: "Trebuchet MS";
-	font-size: 2.9vw;
-	letter-spacing: 20px;
+h1,h2 {
+	font-family: 'Roboto', sans-serif;}
+
+h1 {font-size: 2.9vw;
+	letter-spacing: 15px;
 	float: left;
 	margin: 0.5em;
 
@@ -103,7 +104,7 @@ a:hover {
 
 #Aboutsection{
 	width: 60%;
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
 	height: auto;
 	margin-left: auto ;
 	margin-right: auto;
