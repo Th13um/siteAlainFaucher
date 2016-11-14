@@ -1,2 +1,4 @@
 # Alain_Faucher
-site d'Alain Faucher'
+Site d'Alain Faucher
+
+This website is here to present the work of the trumpet professor Alain Faucher 
