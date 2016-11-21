@@ -36,7 +36,7 @@ a:hover {
 }
 		/*  Zone de Navigation */
 
-#navigation{
+header{
 
 	height: 100px;
 	width: 100%;
@@ -46,14 +46,14 @@ a:hover {
 
 }
 
-#navigation ul {
+header ul {
 	list-style-type:none;
 	margin: none;
 	padding: none;
 
 }
 
-#navigation a{
+header a{
 	float: right;
 	text-decoration: none;
 	color: black;
@@ -81,7 +81,7 @@ a:hover {
 }
 
 		/* Pied de Page */
-#footer {
+footer {
 	height: 70px;
 	width: 100%;
 	margin: 0 auto;
@@ -90,11 +90,11 @@ a:hover {
 	box-sizing:border-box;
 }
 
-#footer a {
+footer a {
 	float: left;
 }
 
-#footer img {
+footer img {
 
 	width :30px;
 	height :30px;
@@ -313,7 +313,7 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 1155px){
-	#navigation {
+	header {
 		height: 100px;
 	}
 
