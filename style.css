@@ -85,6 +85,7 @@ footer a {
 }
 		/* Page About */
 .section{
+	text-align: justify;
 	width: 60%;
 	height: auto;
 	margin-left: auto ;
