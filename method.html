@@ -21,29 +21,39 @@
 				<div id="title">
 					<h1>ALAIN FAUCHER</h1>
 				</div>
-				<nav>
-					<ul>
-						<li><a href="contact.html">CONTACT</a></li>
-						<li><a href="media.html">MEDIAS</a></li>
-						<li><a href="method.html">METHODE</a></li>
-						<li><a href="about.html">A PROPOS</a></li>
-						<li><a href="index.html">ACCUEIL</a></li>
-					</ul>
+				<nav id="myNav" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="overlay-content">
+					<a href="index.html">ACCUEIL</a>
+					<a href="about.html">A PROPOS</a>
+					<a href="method.html">PEDAGOGIE</a>
+					<a href="media.html">ACTUALITÉS</a>
+					<a href="contact.html">CONTACT</a>
+					</div>
 				</nav>
+				<i id="icon" class="fas fa-bars fa-2x" onclick="openNav()"></i>
 			</header>
 			<div class="section">
 				<div>
 					<p>De nombreux musiciens rencontrés m’ont demandé de laisser des traces…</p>
 					<p>
-						Monsieur m’avait dit : ”Toi tu écriras… ». Bien que me considérant « enseignant d’un art vivant », j’ai essayé, malgré tout, de fixer par des mots et surtout par des images analogiques, mon approche concernant l’enseignement du jeu instrumental de
+						Monsieur PICHAUREAU m’avait dit : ”Toi tu écriras… ». Bien que me considérant « enseignant d’un art vivant », j’ai essayé, malgré tout, de fixer par des mots et surtout par des images, mon approche concernant l’enseignement du jeu instrumental de
 						la trompette.
 					</p>
 					<p>
 						Mon livre n’a pas vocation à être une énième méthode de Trompette ou autres instruments à embouchure. Je le nomme «La Trompette intérieure » en référence au livre le « Violon intérieur » de Dominique HOPPENOT.<br / /><br / /> Il ne va pas à l’encontre
-						de votre apprentissage ou de votre enseignement, mais il est un point de vue d’approche. Il s’additionne aux méthodes existantes.<br / /> Il vous indique comment « fabriquer le son », pour que, celui-ci installé, l’expression musicale, libérée des
-						contraintes techniques et physiques, puisse prendre toute son ampleur.
+						de votre apprentissage ou de votre enseignement, mais il est un point de vue d’approche. Il s’additionne aux méthodes existantes.<br / /> Il vous indique comment « fabriquer le son », pour que celui-ci installé, l’expression musicale libérée des
+						contraintes techniques et physiques puisse prendre toute son ampleur.
 					</p>
-					<p class="talk">Il est un chemin à construire par vous-même!</p>
+					<p class="quote"><span>Il est un chemin à construire par vous-même!</span></p>
+				</div>
+				<div>
+					<a href="https://spartacus-idh.com/art/978-2-36693-050-4.html" target="_blank">
+						<img src="img/livre.jpg" alt="couverture du livre la trompette interieur"/>
+					</a>
+				</div>
+				<div id="bookLink">
+					<a  href="https://spartacus-idh.com/art/978-2-36693-050-4.html" target="_blank"> Pour accéder au livre cliquez ici ou sur l'image</a>
 				</div>
 			</div>
 			<footer>
@@ -56,11 +66,12 @@
 						<a href="https://fr.linkedin.com/in/alain-faucher-69443058" class="fa-layers fa-2x" target="_blank">
 					  	<i class="far fa-circle"></i>
 					  	<i class="fab fa-linkedin-in fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
-						<a href="https://fr.linkedin.com/in/alain-faucher-69443058" class="fa-layers fa-2x" target="_blank">
+						<a href="https://www.instagram.com/faucher_alain/" class="fa-layers fa-2x" target="_blank">
 						  <i class="far fa-circle"></i>
 						  <i class="fab fa-instagram fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
 					</footer>
 				</div>
 			</div>
+		<script src="script.js"></script>
 		</body>
 	</html>
