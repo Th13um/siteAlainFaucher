@@ -18,6 +18,7 @@
 <body>
 	<div id="page">
 		<div id="content">
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 			<header>
 				<div id="title">
 					<h1>ALAIN FAUCHER</h1>
@@ -25,48 +26,41 @@
 				<nav id="myNav" class="overlay">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 					<div class="overlay-content">
-					<a href="index.html">ACCUEIL</a>
-					<a href="about.html">A PROPOS</a>
-					<a href="method.html">PEDAGOGIE</a>
-					<a href="media.html">ACTUALITÉS</a>
-					<a href="contact.html">CONTACT</a>
+						<a href="index.html">ACCUEIL</a>
+						<a href="about.html">A PROPOS</a>
+						<a href="method.html">PEDAGOGIE</a>
+						<a href="media.html">ACTUALITÉS</a>
+						<a href="contact.html">CONTACT</a>
 					</div>
 				</nav>
 				<i id="icon" class="fas fa-bars fa-2x" onclick="openNav()"></i>
 			</header>
 			<div class="gallery">
-				<h2>Photos</h2><br />
+				<h2>Vidéos</h2>
 				<div class="thumbnails">
-					<img onmouseover="preview.src=img1.src" name="img1" src="img/img1.jpg" alt="" />
-					<img onmouseover="preview.src=img2.src" name="img2" src="img/img2.jpg" alt="" />
-					<img onmouseover="preview.src=img3.src" name="img3" src="img/img3.jpg" alt="" />
-					<img onmouseover="preview.src=img4.src" name="img4" src="img/img4.jpg" alt="" />
-					<img onmouseover="preview.src=img5.src" name="img5" src="img/img5.jpg" alt="" />
-				</div><br/>
-				<div class="preview" align="center">
-					<img name="preview" src="img/img1.jpg" alt="" />
+					<iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?list=PLDW2ZNtGxGvfnUOXL4xUFtDGVzsVpx61g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+					</iframe>
 				</div>
-			</div>
-			<div class="twitter">
-				<h2>Actualités</h2>
-				<a class="twitter-timeline" data-lang="fr" data-width="800" data-height="800" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/FaucherAlainJ?ref_src=twsrc%5Etfw">Tweets by FaucherAlainJ</a>
-			</div>
-			<footer>
-				<a href="https://www.facebook.com/profile.php?id=100011497610317" class="fa-layers fa-2x" target="_blank">
-	  						<i class="far fa-circle"></i>
-	  						<i class="fab fa-facebook-f fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
-							<a href="https://twitter.com/FaucherAlainJ" class="fa-layers fa-2x" target="_blank">
-		  					<i class="far fa-circle"></i>
-		  					<i class="fab fa-twitter fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
-							<a href="https://fr.linkedin.com/in/alain-faucher-69443058" class="fa-layers fa-2x" target="_blank">
-			  				<i class="far fa-circle"></i>
-			  				<i class="fab fa-linkedin-in fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
-							<a href="https://www.instagram.com/faucher_alain/" class="fa-layers fa-2x" target="_blank">
-				  			<i class="far fa-circle"></i>
-				  			<i class="fab fa-instagram fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
-						</footer>
+				<div class="twitter">
+					<h2>Actualités</h2>
+					<a class="twitter-timeline" data-lang="fr" data-width="800" data-height="800" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/FaucherAlainJ?ref_src=twsrc%5Etfw">Tweets by FaucherAlainJ</a>
 				</div>
-			</div>
-		<script src="script.js"></script>
-		</body>
-	</html>
+				<footer>
+					<a href="https://www.facebook.com/profile.php?id=100011497610317" class="fa-layers fa-2x" target="_blank">
+	  				<i class="far fa-circle"></i>
+	  				<i class="fab fa-facebook-f fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
+					<a href="https://twitter.com/FaucherAlainJ" class="fa-layers fa-2x" target="_blank">
+		  			<i class="far fa-circle"></i>
+		  			<i class="fab fa-twitter fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
+					<a href="https://fr.linkedin.com/in/alain-faucher-69443058" class="fa-layers fa-2x" target="_blank">
+			 			<i class="far fa-circle"></i>
+			 			<i class="fab fa-linkedin-in fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
+					<a href="https://www.instagram.com/faucher_alain/" class="fa-layers fa-2x" target="_blank">
+						<i class="far fa-circle"></i>
+						<i class="fab fa-instagram fa-layers fa-xs" data-fa-transform="shrink-3.5"></i>
+			</footer>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
