@@ -55,7 +55,7 @@ nav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.9);
@@ -168,7 +168,7 @@ footer a {
 }
 
 .collapsible {
-  background-color: #fff;
+  background-color: #fefefe;
   color: #000;
   cursor: pointer;
   margin: 5px 0;
@@ -217,6 +217,7 @@ footer a {
 
 .thumbnails iframe{
   max-width: 100%;
+  border: none;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.17);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.17);
@@ -286,7 +287,7 @@ footer a {
 }
 .feedback-input:focus{
 	background: #fff;
-	box-shadow: 0;
+	box-shadow: none;
 	border: 3px solid #9e712a;
 	color: #9e712a;
 	outline: none;
